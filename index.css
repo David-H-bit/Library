@@ -1,0 +1,51 @@
+.book-card{
+    font-size: 1.5rem;
+    color: blue;
+    background-color: rgba(0, 0, 128, 1);
+    text-align: center;
+    padding: 20px;
+    border: 5px solid navy;
+    border-left: 10px solid violet;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+button{
+    font-size: 2rem;
+    margin: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: navy;
+    color: blue;
+    border: 3px solid navy;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: blue;
+    color: navy;
+    border: 3px solid black;
+}
+
+button:active{
+    border: 3px solid white;
+}
+
+dialog {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  #bookForm input,
+  #bookForm button {
+    margin: 5px 0;
+    padding: 3px;
+}
+
+#removeBook{
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
